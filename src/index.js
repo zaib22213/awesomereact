@@ -2,6 +2,7 @@
 import  React from 'react';
 // var ReactDOM = require('react-dom');
 import ReactDOM from 'react-dom';
+import "./index.css";
 
 // Chanllenge one
 
@@ -47,7 +48,7 @@ const link = "https://www.w3schools.com/";
 
  ReactDOM.render(
    <>
-<h1>my name is {name}</h1>
+<h1 className="heading">my name is {name}</h1>
 <img src={img1} alt="randomimage" />
 <img src={img2} alt="randomimage" />
 <img src={img3} alt="randomimage" />
