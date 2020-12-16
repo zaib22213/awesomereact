@@ -6,12 +6,13 @@ import ReactDOM from 'react-dom';
 // import Heading from './Heading'; // Access the component from the other file
 // import Parag from './Parag';
 // import List from './List';
-import App from './App';
+// import App from './App';
+import script from './script';
 
 // Chanllenge one
 
-ReactDOM.render(
-<App />, document.getElementById('root') );
+// ReactDOM.render(
+// <App />, document.getElementById('root') );
 
 // This will make your code cleaner and much accesiable
 
