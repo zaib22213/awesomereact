@@ -3,27 +3,20 @@ import  React from 'react';
 // var ReactDOM = require('react-dom');
 import ReactDOM from 'react-dom';
 // import "./index.css";
-import Heading from './Heading'; // Access the component from the other file
-import Parag from './Parag';
-import List from './List';
+// import Heading from './Heading'; // Access the component from the other file
+// import Parag from './Parag';
+// import List from './List';
+import App from './App';
 
 // Chanllenge one
 
 ReactDOM.render(
-<>
-<Heading />
-<Parag />
-<List />
+<App />, document.getElementById('root') );
+
+// This will make your code cleaner and much accesiable
 
 
-</>,
-   document.getElementById('root')
-  );
-
-
-
-
-//   // chanllenge two
+//   // Chanllenge Two
 //   const myname = "Zaib Un Nisa";
 //   const currentdate = new Date().toLocaleDateString();
 //   const currentTime = new Date().toLocaleTimeString();

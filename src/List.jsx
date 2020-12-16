@@ -8,7 +8,9 @@ function List() {
     <li>CARTOON</li>
     <li>DRAMMA</li>
     <li>FILM</li>
-    <li>FILM</li>
+    <li>TIGHER</li>
+    <li>WAR</li>
+
   </ol>
 }
 export default List;
