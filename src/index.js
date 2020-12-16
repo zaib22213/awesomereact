@@ -2,27 +2,32 @@
 import  React from 'react';
 // var ReactDOM = require('react-dom');
 import ReactDOM from 'react-dom';
-import "./index.css";
+// import "./index.css";
+import Heading from './Heading';
 
 // Chanllenge one
 
-// ReactDOM.render(
-// <>
-// <h1>Netflix</h1>
-// <p>List of Netflix series</p>
-// <ol>
-//   <li>DARK</li>
-//   <li>DANGER</li>
-//   <li>CARTOON</li>
-//   <li>DRAMMA</li>
-//   <li>FILM</li>
-//   <li>FILM</li>
+ReactDOM.render(
+<>
+<Heading />
+<p>List of Netflix series</p>
+<ol>
+  <li>DARK</li>
+  <li>DANGER</li>
+  <li>CARTOON</li>
+  <li>DRAMMA</li>
+  <li>FILM</li>
+  <li>FILM</li>
 
 
-// </ol>
-// </>,
-//    document.getElementById('root')
-//   );
+</ol>
+</>,
+   document.getElementById('root')
+  );
+
+
+
+
 //   // chanllenge two
 //   const myname = "Zaib Un Nisa";
 //   const currentdate = new Date().toLocaleDateString();
@@ -102,13 +107,13 @@ cssStyle.color='green';
    
 }
 
-ReactDOM.render(
-   <>
-   <div>
-<h1>Hello Sir, <span style={cssStyle}>{greeting}</span></h1>
-</div>
-</>,
-   document.getElementById('root'));
+// ReactDOM.render(
+//    <>
+//    <div>
+// <h1>Hello Sir, <span style={cssStyle}>{greeting}</span></h1>
+// </div>
+// </>,
+//    document.getElementById('root'));
 
 
 
