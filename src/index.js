@@ -2,7 +2,7 @@
 import  React from 'react';
 // var ReactDOM = require('react-dom');
 import ReactDOM from 'react-dom';
-// import "./index.css";
+import "./index.css";
 
 // Chanllenge one
 
@@ -86,17 +86,28 @@ const obj = {
 let curDate = new Date();
 curDate = curDate.getHours();
 let greeting = "";
+let cssStyle = {};
+
 if (curDate >= 1 && curDate < 12) {
 greeting = "Good Morning";
+cssStyle.color='green';
 } else if(curDate >= 12 && curDate < 19) {
    greeting = "Good Afternoon";
+  cssStyle.color='Orange';
+
 
 } else {
    greeting = "Good Night";
-
+  cssStyle.color='Black';
+   
 }
 
-ReactDOM.render(<h1>Hello Sir, {greeting}</h1>,
+ReactDOM.render(
+   <>
+   <div>
+<h1>Hello Sir, <span style={cssStyle}>{greeting}</span></h1>
+</div>
+</>,
    document.getElementById('root'));
 
 
