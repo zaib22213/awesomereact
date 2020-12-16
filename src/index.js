@@ -3,24 +3,19 @@ import  React from 'react';
 // var ReactDOM = require('react-dom');
 import ReactDOM from 'react-dom';
 // import "./index.css";
-import Heading from './Heading';
+import Heading from './Heading'; // Access the component from the other file
+import Parag from './Parag';
+import List from './List';
 
 // Chanllenge one
 
 ReactDOM.render(
 <>
 <Heading />
-<p>List of Netflix series</p>
-<ol>
-  <li>DARK</li>
-  <li>DANGER</li>
-  <li>CARTOON</li>
-  <li>DRAMMA</li>
-  <li>FILM</li>
-  <li>FILM</li>
+<Parag />
+<List />
 
 
-</ol>
 </>,
    document.getElementById('root')
   );
