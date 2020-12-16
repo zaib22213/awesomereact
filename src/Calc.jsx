@@ -13,7 +13,7 @@ function mul(num1, num2) {
     return multiplication;
 }
 function div(num1, num2) {
-    let division = num1 + num2;
+    let division = num1 / num2;
     return division;
 }
 export default add;
