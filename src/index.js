@@ -2,7 +2,7 @@
 import  React from 'react';
 // var ReactDOM = require('react-dom');
 import ReactDOM from 'react-dom';
-import "./index.css";
+// import "./index.css";
 
 // Chanllenge one
 
@@ -46,9 +46,27 @@ const img3 = "https://picsum.photos/270/300";
 const img4 = "https://picsum.photos/300/300";
 const link = "https://www.w3schools.com/";
 
+// how to use the Inline CSS
+// the properties in kabab case converting into the camel case to use it.
+// In object the key:"value" is used to assess the peroperty and separated by the comma
+
+const obj = {
+   color: "green",
+   fontSize: "16",
+   textAlign: "center",
+   margin: "50px 0",
+   textTransform: "capitalize"
+ }
+ const Div_img = {
+   display:" flex",
+   alignItems: "center",
+   justifyContent: "center"
+ }
+
  ReactDOM.render(
    <>
-<h1 className="heading">my name is {name}</h1>
+<h1 style={obj}>my name is {name}</h1>
+<div style={Div_img}>
 <img src={img1} alt="randomimage" />
 <img src={img2} alt="randomimage" />
 <img src={img3} alt="randomimage" />
@@ -56,7 +74,11 @@ const link = "https://www.w3schools.com/";
 <img src={img4} alt="randomimage" />
 
 </a>
+</div>
 
 </>,
     document.getElementById('root')
  );
+
+
+ 

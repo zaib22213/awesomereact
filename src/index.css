@@ -7,4 +7,11 @@ box-sizing: border-box;
   color: green;
   font-size: 16;
   text-align: center;
+  margin: 50px 0;
+  text-transform: capitalize;
+}
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
