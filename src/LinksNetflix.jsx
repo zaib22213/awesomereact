@@ -1,4 +1,4 @@
-const data =[
+const sdata =[
  {
     sname:"Dark",
     imgsrc:"https://lh3.googleusercontent.com/proxy/wQbhn6BPNErZ4_YrbLkYxXZ4IT5rx9u7u1hP6mI8Babu183UtsHEESdPsyaNapMtEzeiUKRBcPyMNSwr9_YeosYVUw6_NXLHF22iQmzPlVl8U5iyjJNT6A",
@@ -18,9 +18,16 @@ const data =[
     links:"https://www.netflix.com/pk/title/80057281"
 },
 {
-    sname:"Dark",
-    imgsrc:"https://lh3.googleusercontent.com/proxy/wQbhn6BPNErZ4_YrbLkYxXZ4IT5rx9u7u1hP6mI8Babu183UtsHEESdPsyaNapMtEzeiUKRBcPyMNSwr9_YeosYVUw6_NXLHF22iQmzPlVl8U5iyjJNT6A",
+    sname:"kabhi khushi kabhie gham",
+    imgsrc:"https://img.wynk.in/unsafe/275x275/filters:no_upscale():format(jpg)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/music/srch_sonymusic_769114.jpg",
     title:"Netflix Original Series",
-    links:"https://www.netflix.com/pk/title/80100172"
+    links:"https://www.netflix.com/pk/title/60036750?source=35"
+},
+{
+    sname:"Mosul",
+    imgsrc:"https://m.media-amazon.com/images/M/MV5BYWU1MzZkOGQtMTE2ZS00YmMzLTkzMzctMTc0ZjU1NDFlOWZkXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_.jpg",
+    title:"Netflix Original Series",
+    links:"https://www.netflix.com/pk/title/81041495"
 }
 ]
+export default sdata;
