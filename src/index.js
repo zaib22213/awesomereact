@@ -4,23 +4,37 @@ import  React from 'react';
 import ReactDOM from 'react-dom';
 // import script from './script';
 
+// Make the component of the Card
+function Card(props) {
+   return(
+       <>
+      <div className="cards">
+      <div className="card">
+         <img src={props.imgsrc}
+          alt="mypic" 
+          className="card_img"
+          />
+          <div className="card_info">
+             <span className="card_category">{props.title}</span>
+             <h3 className="card_title">{props.sname}</h3>
+             <a href={props.links} target="_blank">
+             <button>Watch Now</button>
+             </a>
+             
+          </div>
+   
+      </div>
+   
+      </div>
+      </>
+     );
+}
+
 ReactDOM.render(
-   <>
-   <div className="cards">
-   <div className="card">
-      <img src="https://lh3.googleusercontent.com/proxy/wQbhn6BPNErZ4_YrbLkYxXZ4IT5rx9u7u1hP6mI8Babu183UtsHEESdPsyaNapMtEzeiUKRBcPyMNSwr9_YeosYVUw6_NXLHF22iQmzPlVl8U5iyjJNT6A"
-       alt="mypic" 
-       className="card_img"
-       />
-       <div className="card_info">
-          <span className="card_category">A Netflix Original Series</span>
-          <h3 className="card_title">Dark</h3>
-          <a href="https://www.netflix.com/pk/title/80100172" target="_blank"></a>
-          <button>Watch Now</button>
-       </div>
-
-   </div>
-
-   </div>
-   </>
+   <> 
+<Card sname="Dark"
+    imgsrc="https://lh3.googleusercontent.com/proxy/wQbhn6BPNErZ4_YrbLkYxXZ4IT5rx9u7u1hP6mI8Babu183UtsHEESdPsyaNapMtEzeiUKRBcPyMNSwr9_YeosYVUw6_NXLHF22iQmzPlVl8U5iyjJNT6A"
+    title="Netflix Original Series"
+    links="https://www.netflix.com/pk/title/80100172" />
+    </>
    , document.getElementById('root'));
