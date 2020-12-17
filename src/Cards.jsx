@@ -10,6 +10,7 @@ function Cards(props) {
            alt="mypic" 
            className="card_img"
            />
+        
            <div className="card_info">
               <span className="card_category">{props.title}</span>
               <h3 className="card_title">{props.sname}</h3>
@@ -19,7 +20,7 @@ function Cards(props) {
               
            </div>
     
-       </div>
+           </div>
     
        </div>
        </>

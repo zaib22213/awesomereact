@@ -1,7 +1,7 @@
 const sdata =[
  {
     sname:"Dark",
-    imgsrc:"https://lh3.googleusercontent.com/proxy/wQbhn6BPNErZ4_YrbLkYxXZ4IT5rx9u7u1hP6mI8Babu183UtsHEESdPsyaNapMtEzeiUKRBcPyMNSwr9_YeosYVUw6_NXLHF22iQmzPlVl8U5iyjJNT6A",
+    imgsrc:"https://i.pinimg.com/originals/64/6b/24/646b24208a3ba311a17abb675a1c0ca5.jpg",
     title:"Netflix Original Series",
     links:"https://www.netflix.com/pk/title/80100172"
 },
