@@ -1,8 +1,10 @@
- * {
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap');
+* {
 margin: 0;
 padding: 0;
 box-sizing: border-box;
-background-color: gray;
+background-color: rgb(214, 208, 208);
+font-family: 'Noto Sans JP', sans-serif;
 
 } 
 /* body {
@@ -48,6 +50,15 @@ h1 {
   background-color: #ffffff;
   font-size: 1.5rem;
   margin-bottom: 30px;
+}
+.slot_inner {
+  text-align: center;
+}
+.slotmachine{
+  background-color: white;
+  border: 2px solid black;
+  padding: 0 0 150px 0;
+  margin: 0 450px 600px 450px;
 }
 /* .cards {
   width: 100%;
