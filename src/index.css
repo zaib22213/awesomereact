@@ -44,12 +44,12 @@ h1 {
   font-size: 13px;
   letter-spacing: 2px;
   font-weight: 500;
-  color: #868686;
+  /* color: #868686; */
   background-color: #ffffff;
   font-size: 1.5rem;
   margin-bottom: 30px;
 }
-.cards {
+/* .cards {
   width: 100%;
   height: auto;
 } 
@@ -118,6 +118,5 @@ button {
     margin: 5%;
     width: 90%;
   }
-}
-/* These are the styling for netflix app.... */
-/* Slot Machine Game
+} */
+
