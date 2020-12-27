@@ -11,17 +11,16 @@ body {
   margin: 0;
   padding: 0%;
   box-sizing: border-box;
-  
 }
 button {
   background-color: rgb(177, 105, 177);
   color: white;
-  padding: 15px 20px;
+  padding: 20px 25px;
   border-radius: 5px;
   border: 1px solid white;
-cursor: pointer;
-border: none;
-  
+  cursor: pointer;
+  border: none;
+  margin: 15px 0 0 0;
 }
 div {
   width: 100%;
@@ -31,9 +30,7 @@ div {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  float:center;
-
-  
+  float: center;
 }
 /* div {
 display: flex;

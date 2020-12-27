@@ -2,18 +2,23 @@
 
 import React, { useState } from "react";
 
+// import React from 'react';
+
 const App = () => {
   const state = useState();
-  const [count, setCount] = useState(0);
-  const IncNum = () => {
-    setCount(count + 1);
+  let CurrTime = new Date().toLocaleTimeString();
+  const [CTime, setTime] = useState(CurrTime);
+  const UpdatedTime = () => {
+    CurrTime = new Date().toLocaleTimeString();
+    setTime(CurrTime);
+    // setCount(count + 1);
     // console.log('Clicked' + count++);
   };
   return (
     <>
       <div>
-        <h1> {count} </h1>
-        <button onClick={IncNum}>CLICK ME</button>
+        <h1> {CTime} </h1>
+        <button onClick={UpdatedTime} >GET TIME</button>
       </div>
     </>
   );
