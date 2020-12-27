@@ -19,7 +19,8 @@ button {
   padding: 15px 20px;
   border-radius: 5px;
   border: 1px solid white;
-
+cursor: pointer;
+border: none;
   
 }
 div {

@@ -1,13 +1,19 @@
 // import Heading from './Heading';
 
-import React from "react";
+import React, { useState } from "react";
 
 const App = () => {
+  const state = useState();
+  const [count, setCount] = useState(0);
+  const IncNum = () => {
+    setCount(count + 1);
+    // console.log('Clicked' + count++);
+  };
   return (
     <>
       <div>
-        <h1> 0 </h1>
-        <button>CLICK ME</button>
+        <h1> {count} </h1>
+        <button onClick={IncNum}>CLICK ME</button>
       </div>
     </>
   );
