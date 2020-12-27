@@ -1,5 +1,17 @@
-import Heading from './Heading';
-import React from 'react';
+// import Heading from './Heading';
+
+import React from "react";
+
+const App = () => {
+  return (
+    <>
+      <div>
+        <h1> 0 </h1>
+        <button>CLICK ME</button>
+      </div>
+    </>
+  );
+};
 
 // import Parag from './Parag';
 // import List from './List';
@@ -14,6 +26,5 @@ import React from 'react';
 
 //     );
 // }
-
 
 export default App;

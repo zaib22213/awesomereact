@@ -1,6 +1,7 @@
 import "./index.css";
 
-import Apps from './Apps';
+import App from './App';
+// import Apps from './Apps';
 // import Cards from './Cards';
 import React from 'react';
 import ReactDOM from 'react-dom';
@@ -8,7 +9,7 @@ import ReactDOM from 'react-dom';
 // import sdata from "./LinksNetflix";
 
 ReactDOM.render
-(<Apps />, document.getElementById('root')); 
+(<App />, document.getElementById('root')); 
 
 
 
